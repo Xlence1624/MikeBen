@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+@import "tailwindcss";
+.text-primary {
+  color: #88ff88;
+}
+
+.font-bit{
+font-family: "Bitcount Grid Single", sans-serif;
+}
+.text-secondary {
+  color: #502acc;
+}
+
+.bg-primary {
+  background-color:#88ff88;
+}
+
+.bg-secondary {
+  background-color: #502acc;
+}
