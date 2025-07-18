@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import DottedSquare from './DottedSquare'
+import img from '../assets/011.JPG'
 
 
 
@@ -23,19 +24,22 @@ function Hero() {
 </div>
 
 </div>
-<div className='bg-primary p-20 md:w-1/3 '>
+<div className='bg-primary p-27 md:w-1/3 '>
 <div className='p-5'>
+<DottedSquare/>
+</div>
+<div className='p-5 absolute left-3/5 top-15/16 md:top-3/5 md:left-2/3'>
 <DottedSquare/>
 </div>
 
-<div className='p-5'>
-<DottedSquare/>
-</div>
-<div className='p-5'>
-<DottedSquare/>
+
+
+<div className=' absolute left-1/4 top-5/5 md:left-12/21 md:top-1/5'>
+<img src={img} alt="" className=' w-[230px] h-[220px] md:h-[320px] md:w-[280px] object-cover object-top md:rounded-2xl'  />
 </div>
 
 </div>
+
 
     </div>
   )
