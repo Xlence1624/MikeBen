@@ -8,7 +8,7 @@ function Hero() {
     <div className=" flex  flex-col md:flex-row ">
       <Nav />
       <div className=" bg-secondary md:w-2/3  text-primary md:h-3/4">
-        <div className="   pt-25 md:pt-48 md:px-29 pb-5 flex flex-col justify-center items-center  ">
+        <div className="   pt-30 md:pt-48 md:px-29 pb-5 flex flex-col justify-center items-center  ">
           <p className="font-[900] text-[45px] mt-5 leading-12 md:text-6xl md:leading-15">
             Fullstack <br />
             Developer<span className="text-white">.</span>
@@ -17,7 +17,7 @@ function Hero() {
             I craft scalable and user friendly web apps with great user
             experiences.
           </p>
-          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-15 md:mt-20  px-3 pb-3 ">
+          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-20  px-3 pb-3 ">
             <p>
               Highly skilled at building responsive and interactive web
               applications using modern technologies.
