@@ -13,7 +13,7 @@ function Hero() {
             Fullstack <br />
             Developer<span className="text-white">.</span>
           </p>
-          <p className="text-white mt-3 text-[18px] text-center">
+          <p className="text-white mt-3 text-[18px] text-center px-6">
             I craft scalable and user friendly web apps with great user
             experiences.
           </p>
