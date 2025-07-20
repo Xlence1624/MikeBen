@@ -13,13 +13,13 @@ function Hero() {
             Fullstack <br />
             Developer<span className="text-white">.</span>
           </p>
-          <p className="text-white mt-3 text-[18px] text-center px-10">
+          <p className="text-white mt-3 text-[18px] text-center px-20">
             I craft scalable and user friendly web apps with great user
             experiences.
           </p>
-          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-20  px-8 pb-3 ">
+          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-20 px-10  ">
             <p>
-              Highly skilled at building responsive and interactive web
+              Highly skilled at building responsive  and interactive web
               applications using modern technologies.
             </p>
             <p>
