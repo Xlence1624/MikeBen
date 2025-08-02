@@ -8,12 +8,12 @@ function Hero() {
     <div className=" flex  flex-col md:flex-row ">
       <Nav />
       <div className=" bg-secondary  md:w-2/3  text-primary md:h-3/4 ">
-        <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center items-center  ">
-          <p className="font-[950] text-[50px] text-center mt-5 leading-12 md:text-6xl md:leading-15">
+        <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center  items-start md:items-start px-5 ">
+          <p className="font-[950] text-[50px]  mt-5 leading-12 md:text-6xl md:leading-15 ">
             Fullstack
             Developer<span className="text-white">.</span>
           </p>
-          <p className="text-white mt-3 text-[18px] text-center px-20">
+          <p className="text-white mt-3 text-[18px]  ">
             I craft scalable and user friendly web apps with great user
             experiences.
           </p>
