@@ -6,7 +6,7 @@ const Nav = () => {
     
 
         <div className='flex justify-between items-center absolute top-0 w-full p-5 md:px-20 md:pt-12 bg-transparent text-primary text-2xl'>
- <p className=' flex justify-center items-center font-[900] '> 
+ <p className=' flex justify-center items-center font-[900] gap-1 '> 
   <img src={img}  className="  rounded-full aspect-square object-cover object-top w-10 h-10 " 
   alt="" />
   Michael</p>
