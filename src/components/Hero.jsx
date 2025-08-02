@@ -1,21 +1,20 @@
 import React from "react";
 import Nav from "./Nav";
 
-import img from "../assets/011.JPG";
+import img2 from "../assets/img2.png";
 
 function Hero() {
   return (
-    <div className=" flex  flex-col md:flex-row ">
+    <div className=" flex  flex-col md:flex-row relative ">
       <Nav />
-      <div className=" bg-secondary  md:w-2/3  text-primary md:h-3/4 px-10 ">
+      <div className=" bg-secondary  md:w-2/3  text-primary md:h-3/4 px-10   ">
         <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center  items-start md:items-start  ">
           <p className="font-[950] text-[50px]  mt-12 leading-12 md:text-6xl md:leading-15 ">
             Fullstack <br />
             Web Developer<span className="text-white">.</span>
           </p>
           <p className="text-white mt-5 text-[18px]   ">
-            I craft scalable and user friendly web apps with great user
-            experiences using modern web development technologies.
+     I build sleek interfaces and powerful backends that bring ideas to life. With a passion for clean code and seamless user experiences, I bridge the gap between design and logic. Whether it’s crafting responsive UIs or architecting robust APIs, I turn complexity into clarity.
           </p>
           <div className="flex  gap-4 text-[10px] md:text-[13px] mt-20 mb-5  ">
             <p>
@@ -29,15 +28,27 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-primary p-27 md:w-1/3 flex justify-center items-center ">
-        {/* <div className="  md:absolute  md:left-12/21 md:top-1/5"> */}
-          <img
-            src={img}
-            alt=""
-            className=" w-[230px] h-[230px]  md:h-[320px] md:w-[280px] object-cover object-top md:rounded-2xl"
-          />
-        {/* </div> */}
+      <div className="bg-primary px-10 py-10 md:p-18 md:w-1/3     ">
+
+<div className="flex flex-col md:mt-40 gap-9">
+
+<div className=" ">
+<p className="text-secondary font-bold text-2xl">Design</p>
+<p className=" text-purple-950 text-sm ">I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me. I'm committed to creating fluent user experiences while staying fashionable.</p>
+ </div>
+
+  <div className="  ">
+<p className="text-secondary font-bold text-2xl">Engineering</p>
+<p className=" text-purple-950 text-sm ">In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.</p>
+ </div>
+
+
+</div>
+
+ 
       </div>
+
+      
     </div>
   );
 }
