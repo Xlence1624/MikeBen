@@ -7,17 +7,17 @@ function Hero() {
   return (
     <div className=" flex  flex-col md:flex-row ">
       <Nav />
-      <div className=" bg-secondary md:w-2/3  text-primary md:h-3/4">
+      <div className=" bg-secondary h-screen md:w-2/3  text-primary md:h-3/4 ">
         <div className="   pt-30 md:pt-48 md:px-29 pb-5 flex flex-col justify-center items-center  ">
           <p className="font-[900] text-[45px] mt-5 leading-12 md:text-6xl md:leading-15">
-            Fullstack <br />
+            Fullstack
             Developer<span className="text-white">.</span>
           </p>
           <p className="text-white mt-3 text-[18px] text-center px-20">
             I craft scalable and user friendly web apps with great user
             experiences.
           </p>
-          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-20 px-10  ">
+          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-80 px-10  ">
             <p>
               Highly skilled at building responsive  and interactive web
               applications using modern technologies.
