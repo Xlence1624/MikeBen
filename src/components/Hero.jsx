@@ -30,16 +30,16 @@ function Hero() {
       </div>
       <div className="bg-primary px-10 py-10 md:p-18 md:w-1/3     ">
 
-<div className="flex flex-col md:mt-40 gap-9">
+<div className="flex flex-col md:mt-40 gap-9 ">
 
 <div className=" ">
-<p className="text-secondary font-bold text-2xl">Design</p>
-<p className=" text-purple-950 text-sm ">I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me. I'm committed to creating fluent user experiences while staying fashionable.</p>
+<p className="text-secondary font-[700] text-2xl">Design</p>
+<p className=" mt-2 text-purple-950 text-sm leading-5.5">I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me. I'm committed to creating fluent user experiences while staying fashionable.</p>
  </div>
 
   <div className="  ">
 <p className="text-secondary font-bold text-2xl">Engineering</p>
-<p className=" text-purple-950 text-sm ">In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.</p>
+<p className=" text-purple-950 text-sm mt-2 leading-5.5 ">In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.</p>
  </div>
 
 
