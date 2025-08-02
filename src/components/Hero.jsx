@@ -15,7 +15,7 @@ function Hero() {
           </p>
           <p className="text-white mt-3 text-[18px]  ">
             I craft scalable and user friendly web apps with great user
-            experiences.
+            experiences using modern web development technologies.
           </p>
           <div className="flex  gap-4 text-[10px] md:text-[13px] mt-50 px-10  ">
             <p>
