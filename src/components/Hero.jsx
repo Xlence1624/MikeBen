@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import DottedSquare from "./DottedSquare";
+
 import img from "../assets/011.JPG";
 
 function Hero() {
@@ -11,7 +11,7 @@ function Hero() {
         <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center  items-start md:items-start  ">
           <p className="font-[950] text-[50px]  mt-12 leading-12 md:text-6xl md:leading-15 ">
             Fullstack
-            Developer<span className="text-white">.</span>
+            Web Developer<span className="text-white">.</span>
           </p>
           <p className="text-white mt-5 text-[18px]   ">
             I craft scalable and user friendly web apps with great user
