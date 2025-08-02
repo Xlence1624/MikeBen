@@ -17,7 +17,7 @@ function Hero() {
             I craft scalable and user friendly web apps with great user
             experiences using modern web development technologies.
           </p>
-          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-50 px-10  ">
+          <div className="flex  gap-4 text-[10px] md:text-[13px] mt-30 px-10  ">
             <p>
               Highly skilled at building responsive  and interactive web
               applications using modern technologies.
