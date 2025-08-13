@@ -19,21 +19,21 @@ const Nav = () => {
 
   </div>
 
-<div className={` flex flex-col md:text-[#355edb]  absolute top-0  duration-1000 ease-in-out  shadow-lg rounded-lg  bg-white  my-5 mx-10 ${ isOpen ? 'right-1' : ' -right-150'}`}>
-<p className=' absolute right-10 text-6xl cursor-pointer' onClick={()=> setIsOpen(false)}
+<div className={`  fixed h-screen w-full flex items-center  flex-col text-[#355edb] justify-center md:absolute top-0  duration-1000 ease-in-out  shadow-lg rounded-lg  md:w-1/4 md:h-max bg-white  md:my-5 md:mx-10 md:p-10 ${ isOpen ? 'right-0' : ' -right-350'}`}>
+<p className=' absolute right-2 top-0 text-3xl cursor-pointer' onClick={()=> setIsOpen(false)}
   
   >&#215;</p>
-  <ul className='flex  flex-col  px-15 pt-20 gap-4 text-xl font-sans lora'>
+  <ul className='flex flex-col items-center justify-between gap-10 md:gap-6 py-5 text-xl font-sans lora'>
     <li>Home</li>
     <li>My Work</li>
     <li>My Resume</li>
     <li>Contact me</li>
 
   </ul>
-<div  className=' px-15 pt-10 w-full'>
+<div  className='  flex flex-col justify-between gap-5 md:gap-4 text-center absolute md:static bottom-10 md:mt-8'>
     <p className='text-gray-300 '>SAY HELLO</p>
   <p>orjimichael73@yahoo.com</p>
-  <div className='flex gap-4 mt-5 text-2xl pt-5 pb-5'>
+  <div className='flex justify-center items-center  gap-4  text-2xl '>
 <i class="fa-brands fa-github"></i>
 <i class="fa-brands fa-square-linkedin"></i>
 <i class="fa-brands fa-whatsapp"></i>
