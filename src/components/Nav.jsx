@@ -19,11 +19,11 @@ const Nav = () => {
 
   </div>
 
-<div className={`  fixed h-screen w-full flex items-center justify-around flex-col text-[#355edb]  md:absolute top-0  duration-1000 ease-in-out  shadow-lg rounded-lg  md:w-1/4 md:h-max bg-white  md:my-5 md:mx-10 md:p-10 ${ isOpen ? 'right-0' : ' -right-350'}`}>
+<div className={`  fixed h-screen w-full flex items-center justify-around  flex-col text-[#355edb]  md:absolute top-0  duration-1000 ease-in-out  shadow-lg rounded-lg  md:w-1/4 md:h-max bg-white  md:my-5 md:mx-10 md:p-10 ${ isOpen ? 'right-0' : ' -right-350'}`}>
 <p className=' absolute right-2 top-0 text-3xl cursor-pointer' onClick={()=> setIsOpen(false)}
   
   >&#215;</p>
-  <ul className=' text-xl  gap-3    flex  flex-col items-center justify-around sm:gap-5 md:gap-6  md:text-xl lora md:static'>
+  <ul className=' text-xl   gap-20   flex  flex-col items-center justify-around sm:gap-5 md:gap-6  md:text-xl lora md:static'>
     <li>Home</li>
     <li>My Work</li>
     <li>My Resume</li>
