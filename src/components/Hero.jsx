@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
+import img from '../assets/011.JPG'
 
-import img2 from "../assets/img2.png";
 
 function Hero() {
   return (
@@ -13,6 +13,8 @@ function Hero() {
    
       <div className=" bg-secondary md:pb-5  md:w-2/3  text-primary md:h-3/4 px-10   ">
         <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center  items-start md:items-start  ">
+            <img src={img}  className="  rounded-full aspect-square object-cover object-top w-80 h-50  " 
+  alt="" />
           <p className="font-[950] text-[50px]  mt-12 leading-12 md:text-6xl md:leading-15 ">
             Fullstack <br />
             Web Developer<span className="text-white">.</span>
@@ -43,16 +45,16 @@ function Hero() {
 
   <div className="  ">
 <p className="text-secondary font-bold text-2xl">Engineering</p>
-<p className=" text-purple-950 text-sm mt-2 leading-5.5 ">In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.</p>
+<p className=" text-purple-950 text-sm mt-2 leading-5.5 pb-5">In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.</p>
  </div>
 
 
 </div>
 
- 
+
       </div>
 
-      
+   
     </div>
   );
 }
