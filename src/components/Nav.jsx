@@ -13,25 +13,25 @@ const Nav = () => {
   alt="" />
   Michael</p>
 {/* nav bar icon */}
-  <div className='leading-3  font-[900] flex flex-col  items-end md:text-[#355edb] cursor-pointer '   onClick={()=> setIsOpen(true)}>  <hr  className='w-11 border-1 md:border-3'/> <br /> <hr className='w-8 border-1 md:border-3' /></div>
+  <div className='leading-3  font-[900] flex flex-col  items-end md:text-[#355edb] cursor-pointer'   onClick={()=> setIsOpen(true)}>  <hr  className='w-11 border-1 md:border-3'/> <br /> <hr className='w-8 border-1 md:border-3' /></div>
 
   
 
   </div>
 
-<div className={` flex flex-col items-center justify-between text-[#355edb]  fixed t  duration-600 ease-in-out  shadow-lg md:rounded-lg  bg-white h-full w-full  md:w-1/4 md:h-3/5 md:my-5 md:mx-10  ${ isOpen ? 'right-0 ' : ' right-[-850px]'}`}>
-<p className=' absolute right-5 text-6xl cursor-pointer' onClick={()=> setIsOpen(false)}
+<div className={` flex flex-col md:text-[#355edb]  absolute top-0  duration-1000 ease-in-out  shadow-lg rounded-lg  bg-white  my-5 mx-10 ${ isOpen ? 'right-1' : ' -right-150'}`}>
+<p className=' absolute right-10 text-6xl cursor-pointer' onClick={()=> setIsOpen(false)}
   
   >&#215;</p>
-  <ul className='flex  flex-col justify-between items-center px-15 pt-20 gap-10 mt-15 text-xl font-sans lora'>
+  <ul className='flex  flex-col  px-15 pt-20 gap-4 text-xl font-sans lora'>
     <li>Home</li>
     <li>My Work</li>
     <li>My Resume</li>
     <li>Contact me</li>
 
   </ul>
-<div  className=' px-15 pt-10 md:mb-10'>
-    <p className='text-gray-300 text-center'>SAY HELLO</p>
+<div  className=' px-15 pt-10 w-full'>
+    <p className='text-gray-300 '>SAY HELLO</p>
   <p>orjimichael73@yahoo.com</p>
   <div className='flex gap-4 mt-5 text-2xl pt-5 pb-5'>
 <i class="fa-brands fa-github"></i>
