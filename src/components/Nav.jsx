@@ -23,14 +23,16 @@ const Nav = () => {
 <p className=' absolute right-2 top-0 text-3xl cursor-pointer' onClick={()=> setIsOpen(false)}
   
   >&#215;</p>
-  <ul className=' text-xl  gap-5    flex  flex-col items-center justify-between sm:gap-5 md:gap-6  md:text-xl lora md:static'>
+  <ul className=' text-xl  gap-3    flex  flex-col items-center justify-around sm:gap-5 md:gap-6  md:text-xl lora md:static'>
     <li>Home</li>
     <li>My Work</li>
     <li>My Resume</li>
     <li>Contact me</li>
 
   </ul>
-<div  className=' flex flex-col gap-1  md:gap-4 text-center  md:static  md:mt-8'>
+
+
+<div  className=' flex flex-col   md:gap-4 text-center  md:static  md:mt-8'>
     <p className='text-gray-300 '>SAY HELLO</p>
   <p>orjimichael73@yahoo.com</p>
   <div className='flex justify-center items-center  gap-4  text-2xl '>

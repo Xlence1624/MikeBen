@@ -36,8 +36,8 @@ function Hero() {
 
 <div className="flex flex-col md:mt-35 gap-9 ">
 
-<div className=" ">
-<p className="text-secondary font-[700] text-2xl">Design</p>
+<div className="mt-3 ">
+<p className="text-secondary font-[700] text-2xl ">Design</p>
 <p className=" mt-2 text-purple-950 text-sm leading-5.5">I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me. I'm committed to creating fluent user experiences while staying fashionable.</p>
  </div>
 
