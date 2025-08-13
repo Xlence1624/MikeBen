@@ -5,8 +5,12 @@ import img2 from "../assets/img2.png";
 
 function Hero() {
   return (
-    <div className=" flex  flex-col md:flex-row relative ">
-      <Nav />
+    <div className=" flex  flex-col md:flex-row relative overflow-x-hidden">
+
+     
+   <Nav />
+
+   
       <div className=" bg-secondary  md:w-2/3  text-primary md:h-3/4 px-10   ">
         <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center  items-start md:items-start  ">
           <p className="font-[950] text-[50px]  mt-12 leading-12 md:text-6xl md:leading-15 ">
@@ -28,9 +32,9 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-primary px-10 py-10 md:p-18 md:w-1/3     ">
+      <div className="bg-primary px-10  md:p-18 md:w-1/3     ">
 
-<div className="flex flex-col md:mt-40 gap-9 ">
+<div className="flex flex-col md:mt-35 gap-9 ">
 
 <div className=" ">
 <p className="text-secondary font-[700] text-2xl">Design</p>
