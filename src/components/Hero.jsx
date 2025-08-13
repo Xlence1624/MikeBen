@@ -11,7 +11,7 @@ function Hero() {
    <Nav />
 
    
-      <div className=" bg-secondary  md:w-2/3  text-primary md:h-3/4 px-10   ">
+      <div className=" bg-secondary md:pb-5  md:w-2/3  text-primary md:h-3/4 px-10   ">
         <div className="   pt-20 md:pt-48 md:px-29 pb-5 flex flex-col justify-center  items-start md:items-start  ">
           <p className="font-[950] text-[50px]  mt-12 leading-12 md:text-6xl md:leading-15 ">
             Fullstack <br />
