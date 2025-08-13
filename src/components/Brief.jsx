@@ -5,7 +5,7 @@ import active from "../assets/active.png";
 const Brief = () => {
   return (
     <div className='flex flex-col  md:flex-row justify-center items-center p-5  text-purple-950 md:px-29'>
-      <div className='flex flex-col gap-5 md:w-2/5 text-[18px]'>
+      <div className='flex flex-col gap-5 md:w-2/5 md:text-[18px]'>
 <p className='text-secondary text-4xl md:text-6xl font-[700]'>Over the years,</p>
 <p>I've honed my skills in web development, mastering both front-end and back-end technologies. My journey has been fueled by a passion for creating seamless user experiences and robust applications. I thrive on challenges, constantly seeking to learn and adapt in this ever-evolving field.</p>
 <p>My expertise spans a wide range of technologies, including React, Node.js, and various databases. I take pride in writing clean, maintainable code and implementing best practices to ensure scalability and performance. Collaboration is key in my approach, as I believe that great software is built through teamwork and open communication.</p>
