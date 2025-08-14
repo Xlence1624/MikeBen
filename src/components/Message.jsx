@@ -2,7 +2,7 @@ import React from 'react'
 
 const Message = () => {
   return (
-    <div className='flex flex-col justify-center items-center m-20 '>
+    <div className='flex flex-col justify-center items-center  m-8 md:m-20 '>
 <div>
   <p className='text-center text-secondary text-4xl md:text-6xl font-[700]'>Send me a message!</p>
   <p className='text-purple-950 text-xl md:text-2xl text-center mt-5'>Got a question or proposal, or just want <br className='hidden md:block' />
