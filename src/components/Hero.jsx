@@ -20,7 +20,7 @@ function Hero() {
             Web Developer<span className="text-white">.</span>
           </p>
           <p className="text-white mt-5 text-[18px]   ">
-     I build sleek interfaces and powerful backends that bring ideas to life. With a passion for clean code and seamless user experiences, I bridge the gap between design and logic. Whether it’s crafting responsive UIs or architecting robust APIs, I turn complexity into clarity.
+     I'm <span className="text-primary font-bold">Michael</span>. I build sleek interfaces and powerful backends that bring ideas to life. With a passion for clean code and seamless user experiences, I bridge the gap between design and logic. Whether it’s crafting responsive UIs or architecting robust APIs, I turn complexity into clarity.
           </p>
           <div className="flex  gap-4 text-[10px] md:text-[13px] mt-20 mb-5  ">
             <p>
