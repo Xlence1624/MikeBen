@@ -20,7 +20,7 @@ const Build_Design = () => {
   <div className='flex flex-col gap-4   h-full md:h-[350px]'>
  <p className='text-4xl  md:text-6xl font-[700]'>I play the <br className='hidden md:block' /> piano</p>
     <p className='md:text-[22px]  '>
-      I love music and play the piano in my free time. <br /> It helps me relax and inspires my creativity.
+      I love music and play the piano in my free time. <br className='hidden md:flex' /> It helps me relax and inspires my creativity.
 
      
     </p>
