@@ -15,7 +15,7 @@ const Brief = () => {
       </div>
 
 
-<img src={active} alt=""className="w-2/3 object-contain object-top h-120" />
+<img src={active} alt=""className="w-2/3 object-contain object-top md:h-120" />
 
     </div>
   )
