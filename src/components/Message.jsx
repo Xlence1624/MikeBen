@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 
 
 
@@ -17,7 +17,7 @@ const Message = () => {
   }
 const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.send('service_8vmlz7e', 'template_6bctouq', formData, 'qnkGwg6miNTn2r7z6Sryq')
+    emailjs.send('service_ilpfjwp', 'template_6bctouq', formData, 'cvf9s7KQTf9BGFSp_')
       .then(() => alert('Message sent successfully!')) 
    .catch((error) => console.error('Email error:', error));
 
