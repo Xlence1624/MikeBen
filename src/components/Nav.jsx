@@ -38,7 +38,7 @@ const Nav = () => {
 <i class="fa-brands fa-github"></i>
 <i class="fa-brands fa-square-linkedin"></i>
 
-<a href="https://wa.me/2348060664979?text= I appreaciate your message"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="https://wa.me/2348060664979?text= Hi, I just viewed your portfolio and would love to discuss a project with you."><i class="fa-brands fa-whatsapp"></i></a>
 
 
 
