@@ -37,7 +37,11 @@ const Nav = () => {
   <div className='flex justify-center items-center  gap-4  text-2xl '>
 <i class="fa-brands fa-github"></i>
 <i class="fa-brands fa-square-linkedin"></i>
-<i class="fa-brands fa-whatsapp"></i>
+
+<a href="https://wa.me/2348060664979?text= I appreaciate your message"><i class="fa-brands fa-whatsapp"></i></a>
+
+
+
 <i class="fa-brands fa-x-twitter"></i>
   
 </div>
