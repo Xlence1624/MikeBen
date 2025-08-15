@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
 
 
-
+// This component allows users to send messages through a form
+// It uses emailjs to send the message data to a specified email address
 const Message = () => {
 
   const [formData, setFormData] = useState({
@@ -10,17 +11,20 @@ const Message = () => {
     email: '',
     message: ''
   })
-
+// Function to handle input changes
   const handleChange = (e) => {
     setFormData({
       ...formData, [e.target.name]: e.target.value})
   }
+  // Function to send email
 const sendEmail = (e) => {
     e.preventDefault();
     emailjs.send('service_ilpfjwp', 'template_6bctouq', formData, 'cvf9s7KQTf9BGFSp_')
       .then(() => alert('Message sent successfully!')) 
    .catch((error) => console.error('Email error:', error));
-
+ // Reset the form after sending
+  e.target.reset();
+  e.target.elements.message.value = '';
   };
 
 
