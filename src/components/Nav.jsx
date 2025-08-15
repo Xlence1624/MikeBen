@@ -12,7 +12,7 @@ const Nav = () => {
 
   </p>
 {/* nav bar icon */}
-  <div className='leading-3  font-[900] flex flex-col  items-end md:text-[#355edb] cursor-pointer'   onClick={()=> setIsOpen(true)}>  <hr  className='w-11 border-1 md:border-3'/> <br /> <hr className='w-8 border-1 md:border-3' /></div>
+  <div className='leading-3  font-[900] flex flex-col  items-end md:text-[#355edb] text-green-500 cursor-pointer fixed w-full right-2'   onClick={()=> setIsOpen(true)}>  <hr  className='w-11 border-1 md:border-3'/> <br /> <hr className='w-8 border-1 md:border-3' /></div>
 
   
 
