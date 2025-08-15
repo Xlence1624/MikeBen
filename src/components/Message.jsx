@@ -51,7 +51,7 @@ to say hello? Go ahead.</p>
   </div>
 </div>
 <div className='flex flex-col justify-center items-center mt-10'>
- <textarea name="message" onChange={handleChange} id=" "  placeholder='Write your message here.' className='resize-none border-b-1 border-purple-900/50 md:w-1/2  w-full  text-purple-950 outline-0  my-10 text-center' ></textarea>
+ <textarea name="message" onChange={handleChange} id=" "  placeholder='Write your message here.' className='resize-none border-b-1 border-purple-900/50 md:w-1/2  w-full  text-purple-950 outline-0  my-10 ' ></textarea>
 
  <button type="submit" className='border-s-1 border bg-secondary text-white p-2 cursor-pointer' >Send message</button>
 </div>
