@@ -26,7 +26,7 @@ const Footer = () => {
 
     <p>TW   GH   LN  YT</p>
   </div> */}
-  <div  className=' flex flex-col  justify-around gap-1 md:gap-4 text-center  md:static  md:mt-8'>
+  <div  className=' flex flex-col  justify-around gap-1 md:gap-4 text-center  md:static mt-5 md:mt-8'>
     <p className='text-gray-300 '>SAY HELLO</p>
   <p>orjimichael73@yahoo.com</p>
   <div className='flex justify-center items-center  gap-4  text-2xl '>
