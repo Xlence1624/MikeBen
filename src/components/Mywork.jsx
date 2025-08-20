@@ -19,7 +19,7 @@ const Mywork = () => {
   Some of my selected works.
 </p>
 
-<div className='grid grid-cols-4 gap-3'>
+<div className='md:grid grid-cols-4 gap-3'>
  {
         myWork.map(
           (t) => (
