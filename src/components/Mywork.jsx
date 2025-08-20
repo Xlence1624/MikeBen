@@ -19,7 +19,7 @@ const Mywork = () => {
   Some of my selected works.
 </p>
 
-<div className=' w-1/2 md:w-full mt-10 flex flex-col  md:grid grid-cols-4 gap-3'>
+<div className='  mt-10 flex flex-col  md:grid grid-cols-4 gap-3'>
  {
         myWork.map(
           (t) => (
