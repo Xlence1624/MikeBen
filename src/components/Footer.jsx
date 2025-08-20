@@ -11,7 +11,7 @@ const Footer = () => {
 
   
     <p >
-      <NavLink>
+      <NavLink to="/mywork">
         My Work
       </NavLink>
     </p>

@@ -12,15 +12,15 @@ const Nav = () => {
         <div>
           <ul className="hidden md:flex justify-between  gap-8  items-start border-green-500 border-s-1 border rounded-full p-3 px-5 ">
             <li>
-              {" "}
-              <NavLink to="/">Home</NavLink>{" "}
+           
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              {" "}
+             
               <NavLink to="/mywork">My Works</NavLink>
             </li>
             <li>
-              {" "}
+            
               <NavLink>My Resume</NavLink>
             </li>
             <li>

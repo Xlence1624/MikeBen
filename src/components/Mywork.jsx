@@ -19,15 +19,15 @@ const Mywork = () => {
   Some of my selected works.
 </p>
 
-<div className='md:grid grid-cols-4 gap-3'>
+<div className=' w-1/2 md:w-full mt-10 flex flex-col  md:grid grid-cols-4 gap-3'>
  {
         myWork.map(
           (t) => (
        
-        <div className='text-white flex flex-col  ' key={t.id}>
+        <div key={t.id}>
 
-           <NavLink to="https://mik-iyanu.vercel.app/" className="w-full">
-  <img src={t.img} alt="" className=' w-full h-40 object-cover object-top rounded-t-2xl'/>
+           <NavLink to={t.link} className="w-full">
+  <img src={t.img} alt="" className=' w-full h-50 object-cover object-top rounded-t-2xl'/>
   </NavLink>
         
         
