@@ -44,7 +44,11 @@ const Footer = () => {
 
 
 <a href="https://wa.me/2348060664979?text= Hi, I just viewed your portfolio and would love to discuss a project with you."><i className="fa-brands fa-whatsapp"></i></a>
+
+<NavLink to="https://x.com/fhinDaphane">
 <i className="fa-brands fa-x-twitter"></i>
+</NavLink>
+
   
 </div>
 </div>

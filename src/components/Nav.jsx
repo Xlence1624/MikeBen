@@ -79,7 +79,9 @@ const Nav = () => {
               <i className="fa-brands fa-whatsapp"></i>
             </a>
 
-            <i className="fa-brands fa-x-twitter"></i>
+         <NavLink to="https://x.com/fhinDaphane">
+         <i className="fa-brands fa-x-twitter"></i>
+         </NavLink>
           </div>
         </div>
       </div>
