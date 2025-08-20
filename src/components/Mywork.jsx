@@ -13,7 +13,7 @@ const Mywork = () => {
 
      
       
-      <div className='flex flex-col text-white items-center p-30 w-full h-full'>
+      <div className='flex flex-col text-white items-center p-8 md:p-30 w-full h-full'>
         <p className='text-3xl  font-bold'>./Work</p>
 <p className=' text-white text-xl p-5'>
   Some of my selected works.
