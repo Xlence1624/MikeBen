@@ -66,7 +66,10 @@ const Nav = () => {
           <p>orjimichael73@yahoo.com</p>
           <div className="flex justify-center items-center  gap-4  text-2xl ">
             <i className="fa-brands fa-github"></i>
+            <NavLink to="https://www.linkedin.com/in/orji-michael-onyedikachi-xlence/">
             <i className="fa-brands fa-square-linkedin"></i>
+            </NavLink>
+            
 
             <a href="https://wa.me/2348060664979?text= Hi, I just viewed your portfolio and would love to discuss a project with you.">
               <i className="fa-brands fa-whatsapp"></i>
