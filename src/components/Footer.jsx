@@ -52,7 +52,11 @@ const Footer = () => {
   
 </div>
 </div>
+
+<a href="mailto:orjimichael73@yahoo.com">
   <p className='text-center text-gray-300 mt-10'>© 2025 Orji Michael. All rights reserved.</p>
+</a>
+
 </div>
 
     </div>
