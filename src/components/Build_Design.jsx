@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router'
 
 const Build_Design = () => {
   return (
@@ -10,7 +11,11 @@ const Build_Design = () => {
     <p className='md:text-[22px]  '>Open source projects, <br /> web apps and experimentals.
   
     </p>
-        <p className='boder-s-1 border p-2 w-60 text-center text-xl mt-8 '>See my works &rarr;</p>
+
+    <NavLink to="/mywork">
+    <p className='boder-s-1 border p-2 w-60 text-center text-xl mt-8 '>See my works &rarr;</p>
+    </NavLink>
+    
   </div>
 
   <hr className='md:hidden bg-primary w-px'/>

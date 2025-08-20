@@ -63,12 +63,14 @@ const Nav = () => {
 
         <div className=" flex flex-col  justify-around gap-1 md:gap-4 text-center  md:static  md:mt-8">
           <p className="text-gray-300 ">SAY HELLO</p>
-         <a href="mailto:orjimichael73@yahoo.com">
-  <p className='text-center text-gray-300 mt-10'>© 2025 Orji Michael. All rights reserved.</p>
-</a>
+          
+        
+   <a href="mailto:orjimichael73@yahoo.com" >orjimichael73@yahoo.com</a> 
+          
+        
           <div className="flex justify-center items-center  gap-4  text-2xl ">
 
-            <NavLink to="https://github.com/Xlence1624">
+            <NavLink to="https://github.com/Xlence1624?tab=overview&from=2025-08-01&to=2025-08-20">
                  <i className="fa-brands fa-github"></i>
             </NavLink>
          
@@ -81,9 +83,7 @@ const Nav = () => {
               <i className="fa-brands fa-whatsapp"></i>
             </a>
 
-         <NavLink to="https://x.com/fhinDaphane">
-         <i className="fa-brands fa-x-twitter"></i>
-         </NavLink>
+            <i className="fa-brands fa-x-twitter"></i>
           </div>
         </div>
       </div>

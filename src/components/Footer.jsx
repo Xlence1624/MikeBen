@@ -33,7 +33,7 @@ const Footer = () => {
   </div> */}
   <div  className=' flex flex-col  justify-around gap-1 md:gap-4 text-center  md:static mt-5 md:mt-8'>
     <p className='text-gray-300 '>SAY HELLO</p>
-  <p>orjimichael73@yahoo.com</p>
+      <a href="mailto:orjimichael73@yahoo.com">orjimichael73@yahoo.com</a> 
   <div className='flex justify-center items-center  gap-4  text-2xl '>
   <NavLink to="https://github.com/Xlence1624">
                  <i className="fa-brands fa-github"></i>
@@ -53,9 +53,10 @@ const Footer = () => {
 </div>
 </div>
 
-<a href="mailto:orjimichael73@yahoo.com">
-  <p className='text-center text-gray-300 mt-10'>© 2025 Orji Michael. All rights reserved.</p>
-</a>
+
+  <p className='text-center text-gray-300 mt-10'>
+    © 2025 Orji Michael. All rights reserved.</p>
+
 
 </div>
 
