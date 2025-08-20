@@ -1,16 +1,21 @@
 import React from 'react'
+import { NavLink } from 'react-router'
 
 const Footer = () => {
   return (
     <div className='flex flex-col justify-between 
     bg-purple-950 text-primary p-8 md:pt-40 gap-10'>
-<div className='flex justify-around '>
+<div className='flex justify-around  md:text-xl'>
 
 
 
   
-    <p>My work</p>
-    <p>My contact</p>
+    <p >
+      <NavLink>
+        My Work
+      </NavLink>
+    </p>
+    <p>My Contact</p>
     <p>My Resume</p>
 
 
@@ -30,10 +35,10 @@ const Footer = () => {
     <p className='text-gray-300 '>SAY HELLO</p>
   <p>orjimichael73@yahoo.com</p>
   <div className='flex justify-center items-center  gap-4  text-2xl '>
-<i class="fa-brands fa-github"></i>
-<i class="fa-brands fa-square-linkedin"></i>
-<a href="https://wa.me/2348060664979?text= Hi, I just viewed your portfolio and would love to discuss a project with you."><i class="fa-brands fa-whatsapp"></i></a>
-<i class="fa-brands fa-x-twitter"></i>
+<i className="fa-brands fa-github"></i>
+<i className="fa-brands fa-square-linkedin"></i>
+<a href="https://wa.me/2348060664979?text= Hi, I just viewed your portfolio and would love to discuss a project with you."><i className="fa-brands fa-whatsapp"></i></a>
+<i className="fa-brands fa-x-twitter"></i>
   
 </div>
 </div>
