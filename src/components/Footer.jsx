@@ -35,7 +35,9 @@ const Footer = () => {
     <p className='text-gray-300 '>SAY HELLO</p>
   <p>orjimichael73@yahoo.com</p>
   <div className='flex justify-center items-center  gap-4  text-2xl '>
-<i className="fa-brands fa-github"></i>
+  <NavLink to="https://github.com/Xlence1624">
+                 <i className="fa-brands fa-github"></i>
+            </NavLink>
 <NavLink to="https://www.linkedin.com/in/orji-michael-onyedikachi-xlence/">
 <i className="fa-brands fa-square-linkedin"></i>
 </NavLink>
