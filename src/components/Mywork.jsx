@@ -35,7 +35,7 @@ const Mywork = () => {
           <div className='bg-primary text-secondary p-4 rounded-b-2xl shadow-2xl'>
 
 
-<p className='text-xl font-[500]'>{t.title}</p>
+<p className='text-xl font-[500] text-center'>{t.title}</p>
 
   
 
