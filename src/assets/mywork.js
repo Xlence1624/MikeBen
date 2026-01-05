@@ -1,5 +1,6 @@
 import img1 from "../assets/ourpic20252.jpg"
 import img2 from "../assets/portfolio.jpg"
+import img3 from "../assets/eCommerce.avif"
 
 const myWork = [
   {
@@ -16,7 +17,7 @@ const myWork = [
   },
 
         {
-    img: img2,
+    img: img3,
     id: "3",
     title: "Fhin Stores",
     link: "https://commerce-store-jlug.vercel.app/"
