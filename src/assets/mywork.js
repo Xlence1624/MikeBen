@@ -19,7 +19,7 @@ const myWork = [
     img: img2,
     id: "3",
     title: "Fhin Stores",
-    link: "https://mike-ben.vercel.app/"
+    link: "https://commerce-store-jlug.vercel.app/"
   },
   
 ]
