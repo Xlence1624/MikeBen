@@ -14,6 +14,14 @@ const myWork = [
     title: "My portfolio website",
     link: "https://mike-ben.vercel.app/"
   },
+
+        {
+    img: img2,
+    id: "3",
+    title: "Fhin Stores",
+    link: "https://mike-ben.vercel.app/"
+  },
+  
 ]
 
 export default myWork
