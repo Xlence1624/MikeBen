@@ -19,12 +19,12 @@ const Mywork = () => {
   Some of my selected works.
 </p>
 
-<div className='  mt-10 flex flex-col  md:grid grid-cols-4 gap-3'>
+<div className='  mt-10 flex flex-col   md:grid grid-cols-2 gap-3 lg:grid-cols-3 w-full   '>
  {
         myWork.map(
           (t) => (
        
-        <div key={t.id}>
+        <div key={t.id} >
 
            <NavLink to={t.link} className="w-full">
   <img src={t.img} alt="" className=' w-full h-50 object-cover object-top rounded-t-2xl'/>
