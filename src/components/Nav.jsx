@@ -24,7 +24,7 @@ const Nav = () => {
               <NavLink>My Resume</NavLink>
             </li>
             <li>
-              <NavLink>My Contact</NavLink>
+              <NavLink>Contact Me</NavLink>
             </li>
           </ul>
         </div>
