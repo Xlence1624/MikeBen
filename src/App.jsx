@@ -7,10 +7,12 @@ import Message from "./components/Message";
 import Mywork from "./components/Mywork";
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Scroll from "./Scroll";
 
 function App() {
   return (
     <Router>
+      <Scroll/>
       <Routes>
         <Route
           path="/"
