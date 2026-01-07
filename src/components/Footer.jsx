@@ -15,7 +15,7 @@ const Footer = () => {
         My Work
       </NavLink>
     </p>
-    <p>My Contact</p>
+    <p>Contact Me</p>
     <p>My Resume</p>
 
 
