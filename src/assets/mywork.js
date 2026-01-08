@@ -1,6 +1,7 @@
 import img1 from "../assets/ourpic20252.jpg"
 import img2 from "../assets/portfolio.jpg"
 import img3 from "../assets/eCommerce.avif"
+import img4 from "../assets/getFit.avif"
 
 const myWork = [
   {
@@ -22,6 +23,15 @@ const myWork = [
     title: "Fhin Stores",
     link: "https://commerce-store-jlug.vercel.app/"
   },
+
+          {
+    img: img4,
+    id: "4",
+    title: "getFit App",
+    link: "https://workout-app-mocha.vercel.app/"
+  },
+  
+  
   
 ]
 
