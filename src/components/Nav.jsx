@@ -57,7 +57,10 @@ const Nav = () => {
           <li>
             <NavLink to="/mywork">My work</NavLink>
           </li>
-          <li>My Resume</li>
+           <li>
+            
+              <NavLink to="/resume">My Resume</NavLink>
+            </li>
           <li>Reach Me</li>
         </ul>
 
