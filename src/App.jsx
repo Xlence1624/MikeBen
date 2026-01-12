@@ -9,6 +9,7 @@ import Nav from "./components/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Scroll from "./Scroll";
 import Resume from "./components/Resume";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -42,6 +43,15 @@ function App() {
           element={
             <>
           <Resume/>
+            </>
+          }
+        />
+
+             <Route
+          path="/contactme"
+          element={
+            <>
+          <ContactMe/>
             </>
           }
         />
