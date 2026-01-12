@@ -24,7 +24,7 @@ const Nav = () => {
               <NavLink to="/resume">My Resume</NavLink>
             </li>
             <li>
-              <NavLink>Reach Me</NavLink>
+              <NavLink to="/contactme">Reach Me</NavLink>
             </li>
           </ul>
         </div>
@@ -61,7 +61,12 @@ const Nav = () => {
             
               <NavLink to="/resume">My Resume</NavLink>
             </li>
-          <li>Reach Me</li>
+
+               <li>
+            
+              <NavLink to="/contactme">My Resume</NavLink>
+            </li>
+          
         </ul>
 
         <div className=" flex flex-col  justify-around gap-1 md:gap-4 text-center  md:static  md:mt-8">

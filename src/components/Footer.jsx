@@ -15,11 +15,11 @@ const Footer = () => {
         My Work
       </NavLink>
     </p>
-    <p>Reach Me</p>
+  
     <p> <NavLink to="/resume">
         My Resume
       </NavLink></p>
-
+  <p> <NavLink to="/contactme">Reach Me</NavLink></p>
 
 </div>
 
