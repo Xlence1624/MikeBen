@@ -8,6 +8,7 @@ import Mywork from "./components/Mywork";
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Scroll from "./Scroll";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -32,6 +33,15 @@ function App() {
           element={
             <>
           <Mywork/>
+            </>
+          }
+        />
+
+             <Route
+          path="/resume"
+          element={
+            <>
+          <Resume/>
             </>
           }
         />
