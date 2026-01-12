@@ -2,7 +2,22 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className='flex flex-1/3'>
+      {/* //left side */}
+      <div>
+
+      </div>
+{/* 
+//right side */}
+
+<div>
+
+</div>
+
+
+
+
+    </div>
   )
 }
 

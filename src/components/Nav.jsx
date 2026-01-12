@@ -21,7 +21,7 @@ const Nav = () => {
             </li>
             <li>
             
-              <NavLink>My Resume</NavLink>
+              <NavLink to="/resume">My Resume</NavLink>
             </li>
             <li>
               <NavLink>Reach Me</NavLink>

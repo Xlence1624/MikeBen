@@ -16,7 +16,9 @@ const Footer = () => {
       </NavLink>
     </p>
     <p>Reach Me</p>
-    <p>My Resume</p>
+    <p> <NavLink to="/resume">
+        My Resume
+      </NavLink></p>
 
 
 </div>
